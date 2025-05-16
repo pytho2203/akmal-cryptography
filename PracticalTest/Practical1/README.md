@@ -1,7 +1,7 @@
-## Practical test 1 : ##
+### Practical test 1 : ###
 
-#TASK 1:#
-
+## TASK 1: Generate Your GPG Key Pair
+ ##
 Run the following command to start the key generation process:
 
 ``gpg --full-generate-key``
@@ -31,11 +31,12 @@ View the key
 
 ![alt text](screenshots/image-3.png)
 
-#TASK 2#
+## TASK 2 : Encrypt and Decrypt a File##
 
 1. Create file 
 File name : message.txt
-Message : This ifle was encrypted by Akmal , NWS23010015
+
+Message : This file was encrypted by Akmal , NWS23010015
 
 ![alt text](screenshots/image-4.png)
 
@@ -43,7 +44,7 @@ Message : This ifle was encrypted by Akmal , NWS23010015
 
 ``gpg --output message.txt.gpg --encrypt --recipient nurmaizatulakmal.rashimi@student.gmi.edu.my message.txt
 
-![alt text](screesnshots/image-6.png)
+![alt text](screenshots/image-6.png)
 
 As we can see the file 'message.txt.gpg' exist after being encrypted
 
@@ -61,7 +62,7 @@ As result
 
 We can see the message after decrypt it with the correct private key and correct pharaphase
 
-#TASK 3#
+## TASK 3 : Sign and Verify a Message ##
 
 1. Create file
 File name : signed_message.txt
@@ -87,13 +88,13 @@ As result , The file 'signed_message.txt.asc' created . Text file containing bot
 
 ![alt text](screenshots/image-11.png)
 
-#TASK 4 
+## TASK 4 : Configure Passwordless SSH Authentication ##
 
 1. Generate SSH key pair
 
 ``ssh-keygen -t rsa -b 4096 -C "Nur Maizatul Akmal-NWS23010015"
 
-![alt text](screeenshots/image-12.png)
+![alt text](screenshots/image-12.png)
 
 this command generates a strong RSA SSH key pair with a 4096-bit length
 
@@ -131,7 +132,7 @@ Evidence :
 ![alt text](screenshots/image-17.png)
 
 
-#Task 5 : Hash Cracking Challenge#
+## Task 5 : Hash Cracking Challenge ##
 
 Question 1 : SnZlcmV4IEF2IEpmcmNyZSBFeiBCcnJl
 
