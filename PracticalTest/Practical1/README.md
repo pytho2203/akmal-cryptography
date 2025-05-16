@@ -129,7 +129,7 @@ Evidence :
 
 ![alt text](screenshots/image.png)
 
-![alt text](screenshots/image-17.png)
+![alt text](screenshots/image.png)
 
 
 ## Task 5 : Hash Cracking Challenge ##
